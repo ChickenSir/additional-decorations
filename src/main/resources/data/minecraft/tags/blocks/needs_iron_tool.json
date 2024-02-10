@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "additionaldecorations:iron_ingot_stack",
+        "additionaldecorations:gold_ingot_stack",
+        "additionaldecorations:copper_ingot_stack"
+    ]
+}

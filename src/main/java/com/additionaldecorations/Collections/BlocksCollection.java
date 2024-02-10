@@ -12,10 +12,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class BlocksCollection {
-    public static final Block IRON_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK));
-    public static final Block GOLD_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK));
-    public static final Block COPPER_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK));
-    public static final Block NETHERITE_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK));
+    public static final Block IRON_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).requiresTool());
+    public static final Block GOLD_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).requiresTool());
+    public static final Block COPPER_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).requiresTool());
+    public static final Block NETHERITE_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).requiresTool());
 
     public static void register(String modID) {
         // Register Blocks
