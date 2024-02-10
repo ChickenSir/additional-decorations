@@ -15,7 +15,6 @@ import net.minecraft.world.BlockView;
 public class IronIngotStack extends HorizontalFacingBlock {
     private static final VoxelShape BlockShape = Block.createCuboidShape(3, 0, 3, 13, 6, 13);
 
-
     public IronIngotStack(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
