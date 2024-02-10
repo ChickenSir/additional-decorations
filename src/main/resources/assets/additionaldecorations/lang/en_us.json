@@ -1,4 +1,5 @@
 {
     "block.additionaldecorations.iron_ingot_stack": "Iron Ingot Stack",
-    "block.additionaldecorations.gold_ingot_stack": "Gold Ingot Stack"
+    "block.additionaldecorations.gold_ingot_stack": "Gold Ingot Stack",
+    "block.additionaldecorations.copper_ingot_stack": "Copper Ingot Stack"
 }
