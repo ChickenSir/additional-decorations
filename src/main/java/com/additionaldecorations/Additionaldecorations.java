@@ -25,6 +25,7 @@ public class Additionaldecorations implements ModInitializer {
 		.displayName(Text.translatable(modName))
 		.entries((context, entries) -> {
 			entries.add(BlocksCollection.IRON_INGOT_STACK);
+			entries.add(BlocksCollection.GOLD_INGOT_STACK);
 		})
 		.build();
 
