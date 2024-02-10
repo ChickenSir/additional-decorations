@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": {"model": "additionalresources:block/iron_ingot_stack"}
+        "": {"model": "additionaldecorations:block/iron_ingot_stack"}
     }
 }
