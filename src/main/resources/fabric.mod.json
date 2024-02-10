@@ -8,8 +8,8 @@
 		"ChickenSir"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ChickenSir/additional-decorations",
+		"sources": "https://github.com/ChickenSir/additional-decorations"
 	},
 	"license": "MIT",
 	"icon": "assets/additionaldecorations/icon.png",
