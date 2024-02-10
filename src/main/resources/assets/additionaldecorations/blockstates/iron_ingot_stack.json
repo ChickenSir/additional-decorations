@@ -1,5 +1,8 @@
 {
     "variants": {
-        "": {"model": "additionaldecorations:block/iron_ingot_stack"}
+        "facing=north": {"model": "additionaldecorations:block/iron_ingot_stack", "uvlock": true},
+        "facing=east": {"model": "additionaldecorations:block/iron_ingot_stack", "y": 90, "uvlock": true},
+        "facing=south": {"model": "additionaldecorations:block/iron_ingot_stack", "y": 180, "uvlock": true},
+        "facing=west": {"model": "additionaldecorations:block/iron_ingot_stack", "y": 270, "uvlock": true}
     }
 }
