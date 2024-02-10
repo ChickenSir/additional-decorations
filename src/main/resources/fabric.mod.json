@@ -3,15 +3,15 @@
 	"id": "additionaldecorations",
 	"version": "${version}",
 	"name": "additionaldecorations",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds various vanilla friendly decorations to the game!",
 	"authors": [
-		"Me!"
+		"ChickenSir"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/additionaldecorations/icon.png",
 	"environment": "*",
 	"entrypoints": {
