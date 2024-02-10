@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/iron_ingot_stack",
-		"particle": "block/iron_ingot_stack"
+		"0": "additionaldecorations:block/iron_ingot_stack",
+		"particle": "additionaldecorations:block/iron_ingot_stack"
 	},
 	"elements": [
 		{
