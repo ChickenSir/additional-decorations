@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " B ",
+        "B  "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:brick"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:brick_stack"
+    }
+}

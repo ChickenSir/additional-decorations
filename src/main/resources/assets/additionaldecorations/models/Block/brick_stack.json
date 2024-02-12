@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/bricks"
+		"1": "additionaldecorations:block/brick_stack",
+		"particle": "additionaldecorations:block/brick_stack"
 	},
 	"elements": [
 		{
