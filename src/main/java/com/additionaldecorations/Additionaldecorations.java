@@ -32,6 +32,7 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.NETHER_BRICK_STACK);
 			entries.add(BlocksCollection.BUCKET_CLAY);
 			entries.add(BlocksCollection.OAK_STUMP);
+			entries.add(BlocksCollection.BIRCH_STUMP);
 		})
 		.build();
 
