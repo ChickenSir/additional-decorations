@@ -13,7 +13,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 public class BucketBlock extends HorizontalFacingBlock {
-    private static final VoxelShape BlockShape = Block.createCuboidShape(5, 0, 5, 11, 5, 11);
+    private static final VoxelShape BlockShape = Block.createCuboidShape(5, 0, 5, 11, 6, 11);
 
     public BucketBlock(Settings settings) {
         super(settings);
