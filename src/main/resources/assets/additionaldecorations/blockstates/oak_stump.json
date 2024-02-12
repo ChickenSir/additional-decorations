@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "additionaldecorations:block/oak_stump", "uvlock": true},
+        "facing=east": {"model": "additionaldecorations:block/oak_stump", "y": 90, "uvlock": false},
+        "facing=south": {"model": "additionaldecorations:block/oak_stump", "y": 180, "uvlock": false},
+        "facing=west": {"model": "additionaldecorations:block/oak_stump", "y": 270, "uvlock": false}
+    }
+}
