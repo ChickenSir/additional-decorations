@@ -18,6 +18,7 @@ public class BlocksCollection {
     public static final Block COPPER_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).requiresTool());
     public static final Block NETHERITE_INGOT_STACK = new IngotStack(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).requiresTool());
     public static final Block BRICK_STACK = new BrickStack(FabricBlockSettings.copyOf(Blocks.BRICKS));
+    public static final Block NETHER_BRICK_STACK = new BrickStack(FabricBlockSettings.copyOf(Blocks.NETHER_BRICKS));
 
     public static void register(String modID) {
         // Register Blocks
@@ -35,5 +36,8 @@ public class BlocksCollection {
 
         Registry.register(Registries.BLOCK, new Identifier(modID, "brick_stack"), BRICK_STACK);
         Registry.register(Registries.ITEM, new Identifier(modID, "brick_stack"), new BlockItem(BRICK_STACK, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "nether_brick_stack"), NETHER_BRICK_STACK);
+        Registry.register(Registries.ITEM, new Identifier(modID, "nether_brick_stack"), new BlockItem(NETHER_BRICK_STACK, new FabricItemSettings()));
     }
 }

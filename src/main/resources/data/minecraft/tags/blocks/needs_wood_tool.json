@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "additionaldecorations:brick_stack"
+        "additionaldecorations:brick_stack",
+        "additionaldecorations:nether_brick_stack"
     ]
 }

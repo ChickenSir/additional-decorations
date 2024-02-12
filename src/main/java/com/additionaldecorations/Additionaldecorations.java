@@ -29,6 +29,7 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.COPPER_INGOT_STACK);
 			entries.add(BlocksCollection.NETHERITE_INGOT_STACK);
 			entries.add(BlocksCollection.BRICK_STACK);
+			entries.add(BlocksCollection.NETHER_BRICK_STACK);
 		})
 		.build();
 

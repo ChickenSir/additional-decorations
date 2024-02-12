@@ -3,5 +3,6 @@
     "block.additionaldecorations.gold_ingot_stack": "Gold Ingot Stack",
     "block.additionaldecorations.copper_ingot_stack": "Copper Ingot Stack",
     "block.additionaldecorations.netherite_ingot_stack": "Netherite Ingot Stack",
-    "block.additionaldecorations.brick_stack": "Brick Stack"
+    "block.additionaldecorations.brick_stack": "Brick Stack",
+    "block.additionaldecorations.nether_brick_stack": "Nether Brick Stack"
 }

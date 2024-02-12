@@ -5,6 +5,7 @@
         "additionaldecorations:gold_ingot_stack",
         "additionaldecorations:copper_ingot_stack",
         "additionaldecorations:netherite_ingot_stack",
-        "additionaldecorations:brick_stack"
+        "additionaldecorations:brick_stack",
+        "additionaldecorations:nether_brick_stack"
     ]
 }
