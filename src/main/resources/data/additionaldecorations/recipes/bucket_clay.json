@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " C ",
+        " B "
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:bucket"
+        },
+        "C": {
+            "block": "minecraft:clay"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:bucket_clay"
+    }
+}
