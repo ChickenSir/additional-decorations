@@ -10,7 +10,7 @@
             "item": "minecraft:bucket"
         },
         "C": {
-            "block": "minecraft:clay"
+            "item": "minecraft:clay"
         }
     },
     "result": {
