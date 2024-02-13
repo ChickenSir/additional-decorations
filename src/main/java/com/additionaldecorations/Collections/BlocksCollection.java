@@ -30,9 +30,9 @@ public class BlocksCollection {
     public static final Block ACACIA_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(1));
     public static final Block DARK_OAK_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(1));
     public static final Block MANGROVE_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(1));
-    public static final Block CHERRY_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(1));
-    public static final Block CRIMSON_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(1));
-    public static final Block WARPED_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(1));
+    public static final Block CHERRY_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD).strength(1));
+    public static final Block CRIMSON_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE).strength(1));
+    public static final Block WARPED_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE).strength(1));
 
     public static void register(String modID) {
         // Register Blocks
