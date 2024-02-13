@@ -41,6 +41,10 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.CHERRY_STUMP);
 			entries.add(BlocksCollection.CRIMSON_STUMP);
 			entries.add(BlocksCollection.WARPED_STUMP);
+			entries.add(BlocksCollection.STONE_ROCKS);
+			entries.add(BlocksCollection.GRANITE_ROCKS);
+			entries.add(BlocksCollection.DIORITE_ROCKS);
+			entries.add(BlocksCollection.ANDESITE_ROCKS);
 		})
 		.build();
 
