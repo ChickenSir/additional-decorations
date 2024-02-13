@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " C ",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cherry_log"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:cherry_stump"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " M ",
+        " M "
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:mangrove_log"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:mangrove_stump"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "   ",
+        " S ",
+        " S "
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:spruce_log"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:spruce_stump"
+    }
+}
