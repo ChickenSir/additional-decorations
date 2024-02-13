@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "additionaldecorations",
 	"version": "${version}",
-	"name": "additionaldecorations",
+	"name": "Additional Decorations",
 	"description": "Adds various vanilla friendly decorations to the game!",
 	"authors": [
 		"ChickenSir"
