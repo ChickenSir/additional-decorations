@@ -3,6 +3,7 @@ package com.additionaldecorations.Collections;
 import com.additionaldecorations.Blocks.BrickStack;
 import com.additionaldecorations.Blocks.BucketBlock;
 import com.additionaldecorations.Blocks.IngotStack;
+import com.additionaldecorations.Blocks.Rocks;
 import com.additionaldecorations.Blocks.WoodStump;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -33,6 +34,10 @@ public class BlocksCollection {
     public static final Block CHERRY_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CHERRY_WOOD).strength(1));
     public static final Block CRIMSON_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CRIMSON_HYPHAE).strength(1));
     public static final Block WARPED_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.WARPED_HYPHAE).strength(1));
+    public static final Block STONE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.STONE).strength(2).requiresTool());
+    public static final Block GRANITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.GRANITE).strength(2).requiresTool());
+    public static final Block DIORITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.DIORITE).strength(2).requiresTool());
+    public static final Block ANDESITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.ANDESITE).strength(2).requiresTool());
 
     public static void register(String modID) {
         // Register Blocks
@@ -86,5 +91,17 @@ public class BlocksCollection {
 
         Registry.register(Registries.BLOCK, new Identifier(modID, "warped_stump"), WARPED_STUMP);
         Registry.register(Registries.ITEM, new Identifier(modID, "warped_stump"), new BlockItem(WARPED_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "stone_rocks"), STONE_ROCKS);
+        Registry.register(Registries.ITEM, new Identifier(modID, "stone_rocks"), new BlockItem(STONE_ROCKS, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "granite_rocks"), GRANITE_ROCKS);
+        Registry.register(Registries.ITEM, new Identifier(modID, "granite_rocks"), new BlockItem(GRANITE_ROCKS, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "diorite_rocks"), DIORITE_ROCKS);
+        Registry.register(Registries.ITEM, new Identifier(modID, "diorite_rocks"), new BlockItem(DIORITE_ROCKS, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "andesite_rocks"), ANDESITE_ROCKS);
+        Registry.register(Registries.ITEM, new Identifier(modID, "andesite_rocks"), new BlockItem(ANDESITE_ROCKS, new FabricItemSettings()));
     }
 }
