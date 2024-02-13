@@ -6,6 +6,10 @@
         "additionaldecorations:copper_ingot_stack",
         "additionaldecorations:netherite_ingot_stack",
         "additionaldecorations:brick_stack",
-        "additionaldecorations:nether_brick_stack"
+        "additionaldecorations:nether_brick_stack",
+        "additionaldecorations:stone_rocks",
+        "additionaldecorations:granite_rocks",
+        "additionaldecorations:diorite_rocks",
+        "additionaldecorations:andesite_rocks"
     ]
 }
