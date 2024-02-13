@@ -25,6 +25,14 @@ public class BlocksCollection {
     public static final Block BUCKET_CLAY = new BucketBlock(FabricBlockSettings.copyOf(Blocks.FLOWER_POT).sounds(BlockSoundGroup.METAL));
     public static final Block OAK_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1));
     public static final Block BIRCH_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS).strength(1));
+    public static final Block SPRUCE_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(1));
+    public static final Block JUNGLE_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS).strength(1));
+    public static final Block ACACIA_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(1));
+    public static final Block DARK_OAK_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(1));
+    public static final Block MANGROVE_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(1));
+    public static final Block CHERRY_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(1));
+    public static final Block CRIMSON_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(1));
+    public static final Block WARPED_STUMP =  new WoodStump(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(1));
 
     public static void register(String modID) {
         // Register Blocks
@@ -54,5 +62,29 @@ public class BlocksCollection {
 
         Registry.register(Registries.BLOCK, new Identifier(modID, "birch_stump"), BIRCH_STUMP);
         Registry.register(Registries.ITEM, new Identifier(modID, "birch_stump"), new BlockItem(BIRCH_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "spruce_stump"), SPRUCE_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "spruce_stump"), new BlockItem(SPRUCE_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "jungle_stump"), JUNGLE_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "jungle_stump"), new BlockItem(JUNGLE_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "acacia_stump"), ACACIA_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "acacia_stump"), new BlockItem(ACACIA_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "dark_oak_stump"), DARK_OAK_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "dark_oak_stump"), new BlockItem(DARK_OAK_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "mangrove_stump"), MANGROVE_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "mangrove_stump"), new BlockItem(MANGROVE_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "cherry_stump"), CHERRY_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "cherry_stump"), new BlockItem(CHERRY_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "crimson_stump"), CRIMSON_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "crimson_stump"), new BlockItem(CRIMSON_STUMP, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "warped_stump"), WARPED_STUMP);
+        Registry.register(Registries.ITEM, new Identifier(modID, "warped_stump"), new BlockItem(WARPED_STUMP, new FabricItemSettings()));
     }
 }
