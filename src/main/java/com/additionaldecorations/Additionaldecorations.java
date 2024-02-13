@@ -38,6 +38,7 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.ACACIA_STUMP);
 			entries.add(BlocksCollection.DARK_OAK_STUMP);
 			entries.add(BlocksCollection.MANGROVE_STUMP);
+			entries.add(BlocksCollection.CHERRY_STUMP);
 			entries.add(BlocksCollection.CRIMSON_STUMP);
 			entries.add(BlocksCollection.WARPED_STUMP);
 		})
