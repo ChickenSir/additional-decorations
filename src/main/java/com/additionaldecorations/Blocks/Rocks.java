@@ -13,7 +13,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 public class Rocks extends HorizontalFacingBlock {
-    private static final VoxelShape BlockShape = Block.createCuboidShape(3, 0, 2, 13, 2, 12);
+    private static final VoxelShape BlockShape = Block.createCuboidShape(3, 0, 2, 13, 2, 13);
 
     public Rocks(Settings settings) {
         super(settings);
