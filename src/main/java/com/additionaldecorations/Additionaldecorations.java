@@ -21,7 +21,7 @@ public class Additionaldecorations implements ModInitializer {
 
 	// Item Group For Modded Content
 	private static final ItemGroup MOD_GROUP = FabricItemGroup.builder()
-		.icon(() -> new ItemStack(BlocksCollection.IRON_INGOT_STACK))
+		.icon(() -> new ItemStack(BlocksCollection.OAK_STUMP))
 		.displayName(Text.translatable(modName))
 		.entries((context, entries) -> {
 			entries.add(BlocksCollection.IRON_INGOT_STACK);
