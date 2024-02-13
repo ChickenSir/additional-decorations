@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "additionaldecorations:block/granite_rocks", "uvlock": true},
+        "facing=east": {"model": "additionaldecorations:block/granite_rocks", "y": 90, "uvlock": false},
+        "facing=south": {"model": "additionaldecorations:block/granite_rocks", "y": 180, "uvlock": false},
+        "facing=west": {"model": "additionaldecorations:block/granite_rocks", "y": 270, "uvlock": false}
+    }
+}
