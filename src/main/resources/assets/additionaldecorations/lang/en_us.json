@@ -7,13 +7,17 @@
     "block.additionaldecorations.nether_brick_stack": "Nether Brick Stack",
     "block.additionaldecorations.bucket_clay": "Clay Bucket",
     "block.additionaldecorations.oak_stump": "Oak Stump",
-    "block.additionaldecorations.birch_stump": "Birch Stump",
     "block.additionaldecorations.spruce_stump": "Spruce Stump",
+    "block.additionaldecorations.birch_stump": "Birch Stump",
     "block.additionaldecorations.jungle_stump": "Jungle Stump",
     "block.additionaldecorations.acacia_stump": "Acacia Stump",
     "block.additionaldecorations.dark_oak_stump": "Dark Oak Stump",
     "block.additionaldecorations.mangrove_stump": "Mangrove Stump",
     "block.additionaldecorations.cherry_stump": "Cherry Stump",
     "block.additionaldecorations.crimson_stump": "Crimson Stump",
-    "block.additionaldecorations.warped_stump": "Warped Stump"
+    "block.additionaldecorations.warped_stump": "Warped Stump",
+    "block.additionaldecorations.stone_rocks": "Stone Rocks",
+    "block.additionaldecorations.granite_rocks": "Granite Rocks",
+    "block.additionaldecorations.diorite_rocks": "Diorite Rocks",
+    "block.additionaldecorations.andesite_rocks": "Andesite Rocks"
 }
