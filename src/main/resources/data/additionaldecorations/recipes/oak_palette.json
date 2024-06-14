@@ -11,6 +11,7 @@
         }
     },
     "result": {
-        "item": "additionaldecorations:oak_palette"
+        "item": "additionaldecorations:oak_palette",
+        "count": 4
     }
 }

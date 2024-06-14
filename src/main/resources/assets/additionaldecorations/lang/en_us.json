@@ -20,5 +20,14 @@
     "block.additionaldecorations.granite_rocks": "Granite Rocks",
     "block.additionaldecorations.diorite_rocks": "Diorite Rocks",
     "block.additionaldecorations.andesite_rocks": "Andesite Rocks",
-    "block.additionaldecorations.oak_palette": "Oak Palette"
+    "block.additionaldecorations.oak_palette": "Oak Palette",
+    "block.additionaldecorations.spruce_palette": "Spruce Palette",
+    "block.additionaldecorations.birch_palette": "Birch Palette",
+    "block.additionaldecorations.jungle_palette": "Jungle Palette",
+    "block.additionaldecorations.acacia_palette": "Acacia Palette",
+    "block.additionaldecorations.dark_oak_palette": "Dark Oak Palette",
+    "block.additionaldecorations.mangrove_palette": "Mangrove Palette",
+    "block.additionaldecorations.cherry_palette": "Cherry Palette",
+    "block.additionaldecorations.crimson_palette": "Crimson Palette",
+    "block.additionaldecorations.warped_palette": "Warped Palette"
 }

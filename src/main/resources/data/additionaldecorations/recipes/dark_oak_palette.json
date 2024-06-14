@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        " D ",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "minecraft:dark_oak_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:dark_oak_palette",
+        "count": 4
+    }
+}

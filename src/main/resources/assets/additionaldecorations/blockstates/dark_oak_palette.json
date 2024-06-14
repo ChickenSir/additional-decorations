@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "additionaldecorations:block/dark_oak_palette", "uvlock": true},
+        "facing=east": {"model": "additionaldecorations:block/dark_oak_palette", "y": 90, "uvlock": false},
+        "facing=south": {"model": "additionaldecorations:block/dark_oak_palette", "y": 180, "uvlock": false},
+        "facing=west": {"model": "additionaldecorations:block/dark_oak_palette", "y": 270, "uvlock": false}
+    }
+}

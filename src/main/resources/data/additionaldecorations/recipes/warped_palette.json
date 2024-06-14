@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW",
+        " W ",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:warped_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:warped_palette",
+        "count": 4
+    }
+}
