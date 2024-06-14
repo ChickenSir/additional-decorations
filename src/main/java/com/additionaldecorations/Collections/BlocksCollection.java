@@ -4,7 +4,7 @@ import com.additionaldecorations.Blocks.BrickStack;
 import com.additionaldecorations.Blocks.BucketBlock;
 import com.additionaldecorations.Blocks.IngotStack;
 import com.additionaldecorations.Blocks.Rocks;
-import com.additionaldecorations.Blocks.WoodPalette;
+import com.additionaldecorations.Blocks.WoodPallet;
 import com.additionaldecorations.Blocks.WoodStump;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -39,16 +39,16 @@ public class BlocksCollection {
     public static final Block GRANITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.GRANITE).strength(2).requiresTool());
     public static final Block DIORITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.DIORITE).strength(2).requiresTool());
     public static final Block ANDESITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.ANDESITE).strength(2).requiresTool());
-    public static final Block OAK_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1).nonOpaque());
-    public static final Block BIRCH_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS).strength(1).nonOpaque());
-    public static final Block SPRUCE_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(1).nonOpaque());
-    public static final Block JUNGLE_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS).strength(1).nonOpaque());
-    public static final Block ACACIA_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(1).nonOpaque());
-    public static final Block DARK_OAK_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(1).nonOpaque());
-    public static final Block MANGROVE_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(1).nonOpaque());
-    public static final Block CHERRY_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(1).nonOpaque());
-    public static final Block CRIMSON_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(1).nonOpaque());
-    public static final Block WARPED_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(1).nonOpaque());
+    public static final Block OAK_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1).nonOpaque());
+    public static final Block BIRCH_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.BIRCH_PLANKS).strength(1).nonOpaque());
+    public static final Block SPRUCE_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(1).nonOpaque());
+    public static final Block JUNGLE_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.JUNGLE_PLANKS).strength(1).nonOpaque());
+    public static final Block ACACIA_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.ACACIA_PLANKS).strength(1).nonOpaque());
+    public static final Block DARK_OAK_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.DARK_OAK_PLANKS).strength(1).nonOpaque());
+    public static final Block MANGROVE_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.MANGROVE_PLANKS).strength(1).nonOpaque());
+    public static final Block CHERRY_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.CHERRY_PLANKS).strength(1).nonOpaque());
+    public static final Block CRIMSON_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.CRIMSON_PLANKS).strength(1).nonOpaque());
+    public static final Block WARPED_PALLET = new WoodPallet(FabricBlockSettings.copyOf(Blocks.WARPED_PLANKS).strength(1).nonOpaque());
 
     public static void register(String modID) {
         // Register Blocks
@@ -115,34 +115,34 @@ public class BlocksCollection {
         Registry.register(Registries.BLOCK, new Identifier(modID, "andesite_rocks"), ANDESITE_ROCKS);
         Registry.register(Registries.ITEM, new Identifier(modID, "andesite_rocks"), new BlockItem(ANDESITE_ROCKS, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "oak_palette"), OAK_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "oak_palette"), new BlockItem(OAK_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "oak_pallet"), OAK_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "oak_pallet"), new BlockItem(OAK_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "birch_palette"), BIRCH_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "birch_palette"), new BlockItem(BIRCH_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "birch_pallet"), BIRCH_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "birch_pallet"), new BlockItem(BIRCH_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "spruce_palette"), SPRUCE_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "spruce_palette"), new BlockItem(SPRUCE_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "spruce_pallet"), SPRUCE_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "spruce_pallet"), new BlockItem(SPRUCE_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "jungle_palette"), JUNGLE_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "jungle_palette"), new BlockItem(JUNGLE_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "jungle_pallet"), JUNGLE_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "jungle_pallet"), new BlockItem(JUNGLE_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "acacia_palette"), ACACIA_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "acacia_palette"), new BlockItem(ACACIA_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "acacia_pallet"), ACACIA_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "acacia_pallet"), new BlockItem(ACACIA_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "dark_oak_palette"), DARK_OAK_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "dark_oak_palette"), new BlockItem(DARK_OAK_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "dark_oak_pallet"), DARK_OAK_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "dark_oak_pallet"), new BlockItem(DARK_OAK_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "mangrove_palette"), MANGROVE_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "mangrove_palette"), new BlockItem(MANGROVE_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "mangrove_pallet"), MANGROVE_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "mangrove_pallet"), new BlockItem(MANGROVE_PALLET, new FabricItemSettings()));
         
-        Registry.register(Registries.BLOCK, new Identifier(modID, "cherry_palette"), CHERRY_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "cherry_palette"), new BlockItem(CHERRY_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "cherry_pallet"), CHERRY_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "cherry_pallet"), new BlockItem(CHERRY_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "crimson_palette"), CRIMSON_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "crimson_palette"), new BlockItem(CRIMSON_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "crimson_pallet"), CRIMSON_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "crimson_pallet"), new BlockItem(CRIMSON_PALLET, new FabricItemSettings()));
 
-        Registry.register(Registries.BLOCK, new Identifier(modID, "warped_palette"), WARPED_PALETTE);
-        Registry.register(Registries.ITEM, new Identifier(modID, "warped_palette"), new BlockItem(WARPED_PALETTE, new FabricItemSettings()));
+        Registry.register(Registries.BLOCK, new Identifier(modID, "warped_pallet"), WARPED_PALLET);
+        Registry.register(Registries.ITEM, new Identifier(modID, "warped_pallet"), new BlockItem(WARPED_PALLET, new FabricItemSettings()));
     }
 }

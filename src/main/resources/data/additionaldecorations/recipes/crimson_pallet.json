@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " C ",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:crimson_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:crimson_pallet",
+        "count": 4
+    }
+}

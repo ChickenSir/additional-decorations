@@ -45,16 +45,16 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.GRANITE_ROCKS);
 			entries.add(BlocksCollection.DIORITE_ROCKS);
 			entries.add(BlocksCollection.ANDESITE_ROCKS);
-			entries.add(BlocksCollection.OAK_PALETTE);
-			entries.add(BlocksCollection.SPRUCE_PALETTE);
-			entries.add(BlocksCollection.BIRCH_PALETTE);
-			entries.add(BlocksCollection.JUNGLE_PALETTE);
-			entries.add(BlocksCollection.ACACIA_PALETTE);
-			entries.add(BlocksCollection.DARK_OAK_PALETTE);
-			entries.add(BlocksCollection.MANGROVE_PALETTE);
-			entries.add(BlocksCollection.CHERRY_PALETTE);
-			entries.add(BlocksCollection.CRIMSON_PALETTE);
-			entries.add(BlocksCollection.WARPED_PALETTE);
+			entries.add(BlocksCollection.OAK_PALLET);
+			entries.add(BlocksCollection.SPRUCE_PALLET);
+			entries.add(BlocksCollection.BIRCH_PALLET);
+			entries.add(BlocksCollection.JUNGLE_PALLET);
+			entries.add(BlocksCollection.ACACIA_PALLET);
+			entries.add(BlocksCollection.DARK_OAK_PALLET);
+			entries.add(BlocksCollection.MANGROVE_PALLET);
+			entries.add(BlocksCollection.CHERRY_PALLET);
+			entries.add(BlocksCollection.CRIMSON_PALLET);
+			entries.add(BlocksCollection.WARPED_PALLET);
 		})
 		.build();
 

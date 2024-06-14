@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MMM",
+        " M ",
+        "MMM"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:mangrove_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:mangrove_pallet",
+        "count": 4
+    }
+}

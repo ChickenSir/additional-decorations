@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OOO",
+        " O ",
+        "OOO"
+    ],
+    "key": {
+        "O": {
+            "item": "minecraft:oak_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:oak_pallet",
+        "count": 4
+    }
+}

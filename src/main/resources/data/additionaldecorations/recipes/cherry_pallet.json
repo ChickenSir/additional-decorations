@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        " C ",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cherry_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:cherry_pallet",
+        "count": 4
+    }
+}

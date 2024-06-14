@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": {"model": "additionaldecorations:block/birch_pallet", "uvlock": true},
+        "facing=east": {"model": "additionaldecorations:block/birch_pallet", "y": 90, "uvlock": false},
+        "facing=south": {"model": "additionaldecorations:block/birch_pallet", "y": 180, "uvlock": false},
+        "facing=west": {"model": "additionaldecorations:block/birch_pallet", "y": 270, "uvlock": false}
+    }
+}

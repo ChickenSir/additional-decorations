@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "JJJ",
+        " J ",
+        "JJJ"
+    ],
+    "key": {
+        "J": {
+            "item": "minecraft:jungle_planks"
+        }
+    },
+    "result": {
+        "item": "additionaldecorations:jungle_pallet",
+        "count": 4
+    }
+}
