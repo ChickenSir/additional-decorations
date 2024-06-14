@@ -45,6 +45,7 @@ public class Additionaldecorations implements ModInitializer {
 			entries.add(BlocksCollection.GRANITE_ROCKS);
 			entries.add(BlocksCollection.DIORITE_ROCKS);
 			entries.add(BlocksCollection.ANDESITE_ROCKS);
+			entries.add(BlocksCollection.OAK_PALETTE);
 		})
 		.build();
 

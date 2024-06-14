@@ -4,6 +4,7 @@ import com.additionaldecorations.Blocks.BrickStack;
 import com.additionaldecorations.Blocks.BucketBlock;
 import com.additionaldecorations.Blocks.IngotStack;
 import com.additionaldecorations.Blocks.Rocks;
+import com.additionaldecorations.Blocks.WoodPalette;
 import com.additionaldecorations.Blocks.WoodStump;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -38,6 +39,7 @@ public class BlocksCollection {
     public static final Block GRANITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.GRANITE).strength(2).requiresTool());
     public static final Block DIORITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.DIORITE).strength(2).requiresTool());
     public static final Block ANDESITE_ROCKS =  new Rocks(FabricBlockSettings.copyOf(Blocks.ANDESITE).strength(2).requiresTool());
+    public static final Block OAK_PALETTE = new WoodPalette(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(1).nonOpaque());
 
     public static void register(String modID) {
         // Register Blocks
@@ -103,5 +105,8 @@ public class BlocksCollection {
 
         Registry.register(Registries.BLOCK, new Identifier(modID, "andesite_rocks"), ANDESITE_ROCKS);
         Registry.register(Registries.ITEM, new Identifier(modID, "andesite_rocks"), new BlockItem(ANDESITE_ROCKS, new FabricItemSettings()));
+
+        Registry.register(Registries.BLOCK, new Identifier(modID, "oak_palette"), OAK_PALETTE);
+        Registry.register(Registries.ITEM, new Identifier(modID, "oak_palette"), new BlockItem(OAK_PALETTE, new FabricItemSettings()));
     }
 }
